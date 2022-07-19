@@ -1,0 +1,44 @@
+
+
+
+         <!-- <div id="lock"><img src="images/finance-removebg-preview.png" alt="" style="width: 50%; margin-top: 50%;"><br>
+    <h1 style="color:black; margin-top: 25px; "><b>Please rotate the device.</b> <br> We support only Landscape mode.</h1>
+    </div>  -->
+
+    <div id="container">
+
+        </script>
+        <!-- <script>
+
+            $(document).ready(function() {
+                $(".zoomin").animate({
+                    width: '400px'
+                }, '5000', 'linear');
+                $(".zoomfont").animate({
+                    fontSize: '71px'
+                }, '5000', 'linear');
+            })
+        </script> -->
+    </div>
+
+    /* #lock{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        background: rgb(255, 255, 255) center no-repeat;
+        text-align: center;
+    }
+    @media screen and (orientation:landscape) {
+        #lock{display: none;}
+        #container{display: block;}
+    }
+    
+    @media screen and (orientation:portrait) {
+        #lock{display: block;}
+        #container{display: none;}
+    } */
+    
