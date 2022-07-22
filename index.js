@@ -20,7 +20,7 @@
 
    if (todo.length) {
      generateTemplate(todo);
-     addForm.reset();
+    //  addForm.reset();
    }
      
  });
