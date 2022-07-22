@@ -20,7 +20,18 @@
 
    if (todo.length) {
      generateTemplate(todo);
-    //  addForm.reset();
+     addForm.reset();
    }
-     
+   
  });
+
+ // delete todos
+  list.addEventListener('click', e => {
+
+    if(e.target.classList.contains('delete')){
+      e.target.parentElement.remove();
+    }
+
+  });
+
+ // keyup event 
