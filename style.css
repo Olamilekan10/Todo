@@ -1,6 +1,9 @@
 #gh{
     background: #352f5b;
 }
+.filtered{
+    display: none !important;
+}
 
 #container{
     max-width: 400px;
