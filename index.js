@@ -3,13 +3,13 @@
 
  const generateTemplate = todo => {
       
-      const html = `
-      <li class="list-group-item d-flex justify-content-between align-items-center">
-      <span>${todo}</span>
-      <i class="fa fa-trash delete" aria-hidden="true"></i> 
-      </li>`;
+      // const html = `
+      // <li class="list-group-item d-flex justify-content-between align-items-center">
+      // <span>${todo}</span>
+      // <i class="fa fa-trash delete" aria-hidden="true"></i> 
+      // </li>`;
 
-      list.innerHTML += html;
+      // list.innerHTML += html;
 
  };
 
@@ -20,7 +20,7 @@
 
    if (todo.length) {
      generateTemplate(todo);
-    //  addForm.reset();
+     addForm.reset();
    }
      
  });
