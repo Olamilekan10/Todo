@@ -37,7 +37,7 @@
 
   const filterTodos = (term) => {
     Array.from(list.children)
-    .filter((todo) => !todo.textContent.toLowerCase().includes(term)) 
+    // .filter((todo) => !todo.textContent.toLowerCase().includes(term)) 
     .forEach((todo) => todo.classList.add('filtered'));
 
 
