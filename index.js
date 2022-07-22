@@ -9,7 +9,7 @@
       // <i class="fa fa-trash delete" aria-hidden="true"></i> 
       // </li>`;
 
-      // list.innerHTML += html;
+       list.innerHTML += html;
 
  };
 
